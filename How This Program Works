@@ -1,0 +1,32 @@
+1️⃣ sniff()
+
+Captures network packets from your network interface.
+
+sniff(prn=packet_callback)
+
+prn → Calls the function for every captured packet.
+
+2️⃣ packet.haslayer(IP)
+
+Checks if the packet contains an IP layer.
+
+3️⃣ Extract Packet Information
+packet[IP].src
+packet[IP].dst
+
+Gets Source IP and Destination IP.
+
+4️⃣ Identify Protocol
+
+The program detects:
+
+TCP
+
+UDP
+
+ICMP
+
+5️⃣ Read Payload
+packet["Raw"].load
+
+Shows the actual data being transmitted.
