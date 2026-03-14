@@ -1,0 +1,11 @@
+Running a sniffer may require Administrator / Root privileges.
+
+Run like:
+
+Windows:
+
+Run CMD as Administrator
+
+Linux / Mac:
+
+sudo python sniffer.py
